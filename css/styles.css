@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+nav{
+	background-color: rgba(255,255,255,0.25);
+}
+
+body{
+	background: url(../img/girasolesbg.jpg);
+	background-repeat:no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+
+.galeria{
+	width:100%;
+	border-radius: 3px;
+}
+
+.objetoFormulario{
+	margin: 0.5rem;
+}
