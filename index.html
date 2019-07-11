@@ -18,9 +18,11 @@
 		<div class="row">
 			<!-- Fila encabezado de la pagina -->
 			<div class="row">
+				<!-- Logo -->
 				<div class="col s2 center">
 					<img class="circle responsive-img" src="img/logo.jpg">
 				</div>
+				<!-- Barra de navegacion -->
 				<div class="col s10">
 					<nav>
 						<div class="nav-wrapper">
@@ -32,13 +34,14 @@
 							</ul>
 						</div>
 					</nav>
+					<!-- Slogan -->
 					<h3 class="teal-text lighten-2">Una aventura inolvidable!</h3>
 				</div>
 			</div>
 			<!-- Redes sociales y galeria de viajes -->
 			<div class="row">
 				<!-- Columna de redes sociales -->
-				<div class="col s1 center">
+				<div class="col m1 l1 hide-on-small-only center">
 					<div class="collection">
 						<a href="#"><img class="circle responsive-img" src="img/fb.png"></a>
 						<a href="#"><img class="circle responsive-img" src="img/ig.png"></a>
@@ -50,25 +53,25 @@
 				<!-- Columna de galeria de viajes -->
 				<div class="col s11">
 					<div class="row">
-						<div class="col s4">
+						<div class="col s12 m4 l4">
 							<div class="center">
 								<img src="img/sierra_nevada_sta_marta.jpg" class="responsive-img galeria z-depth-1-half" alt="Sierra Nevada de Santa Marta">
 							</div>
 							<div class="center">
-								<img src="img/gorgona.jpg" class="responsive-img" alt="Isla Gorgona">
+								<img src="img/gorgona.jpg" class="responsive-img galeria z-depth-1-half" alt="Isla Gorgona">
 							</div>
 						</div>
-						<div class="col s4">
-							<div class="card center">
-								<img src="img/Ermita_Cali_Editada.png" class="responsive-img" alt="Iglesia La Ermita Cali">
+						<div class="col s12 m4 l4">
+							<div class="center">
+								<img src="img/Ermita_Cali_Editada.png" class="responsive-img galeria z-depth-1-half" alt="Iglesia La Ermita Cali">
 							</div>
 						</div>
-						<div class="col s4">
-							<div class="card center">
-								<img src="img/saltoTequendama.jpg" class="responsive-img" alt="Salto de Tequendama">
+						<div class="col s12 m4 l4">
+							<div class="center">
+								<img src="img/saltoTequendama.jpg" class="responsive-img galeria z-depth-1-half" alt="Salto de Tequendama">
 							</div>
-							<div class="card center">
-								<img src="img/lasLajas.jpg" class="responsive-img" alt="Iglesia Las Lajas">
+							<div class="center">
+								<img src="img/lasLajas.jpg" class="responsive-img galeria z-depth-1-half" alt="Iglesia Las Lajas">
 							</div>
 						</div>
 					</div>
@@ -78,11 +81,47 @@
 			<div class="row">
 				<!-- Entrada de articulo -->
 				<div class="col s8">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit labore dolores tempora alias voluptatibus dignissimos optio neque, incidunt minima suscipit, accusamus, dolore nostrum perspiciatis iure, asperiores quos? Libero, beatae quos.</p>
+					<!-- Articulo -->
+					<div class="card horizontal">
+						<div class="card-image">
+							<img src="img/cali.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-content">
+								<span class="card-title"><strong>Cali, la sucursal del cielo</strong></span>
+								<blockquote>Junio 15 del 2019</blockquote>
+								<p>Cali es una de las cinco ciudades principales de Colombia, pero también una de las ciudades más alegres y un destino obligado cuando se visita Colombia por primera vez, o al menos, es una de las ciudades que no pueden faltar en tu visita al país.</p><br>
+								<p>Cali es conocida como la capital mundial de la salsa, y su cercanía al mar del pacifico la 	han convertido en una ciudad con mucho sabor, tanto como Santa Marta, Cartagena o cualquier otra ciudad de la costa caribe. Pero además, Cali, es tan amigable que también es un excelente destino para viajar solo.</p>
+							</div>
+							<div class="card-action">
+								<a href="http://www.guiasybaquianos.com/blog/que-hacer-en-cali">Articulo completo</a>
+							</div>
+						</div>
+					</div>
+					<!-- Comentarios -->
+					<form class="white z-depth-1-half">
+						<div class="input-field">
+							<i class="material-icons prefix">person</i>
+							<textarea class="materialize-textarea objetoFormulario" id="comentarios" placeholder="Deja tu comentario"></textarea>
+						</div>
+						<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">code</i></a>
+    					<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">create</i></a>
+    					<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">mic</i></a>
+						<button class="btn right objetoFormulario" type="submit">Enviar<i class="material-icons right">send</i></button>
+					</form>
 				</div>
 				<!-- Perfil de usuario -->
 				<div class="col s4">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus delectus quod perspiciatis totam, cumque tempore sunt. Dignissimos labore architecto, voluptatem eum asperiores deleniti. Placeat labore nam, eum iusto cum? Eaque.</p>
+					<div class="card">
+						<div class="center">
+							<img class="responsive-img circle center-align objetoFormulario" src="img/fotojp.png">
+						</div>
+						<div class="card-content">
+							<span class="card-title center">Perfil Del Autor</span>
+							<hr>
+							<p class="center">Juan Pablo Cruz. Ingeniero Electrónico graduado de la Unversidad de San Buenaventura de la ciudad de Cali. Entre sus aficiones esta el descubrir nuevos lugares en donde se pueda estar en contacto con la naturaleza y hacer turismo de aventura.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>		
