@@ -80,9 +80,26 @@
 			<!-- Entrada y perfil de usuario -->
 			<div class="row">
 				<!-- Entrada de articulo -->
-				<div class="col s8">
-					<!-- Articulo -->
-					<div class="card horizontal">
+				<div class="col s12 m8 l8">
+					<!-- Articulo para pantallas medianas y grandes -->
+					<div class="card horizontal hide-on-small-only">
+						<div class="card-image">
+							<img src="img/cali.jpg">
+						</div>
+						<div class="card-stacked">
+							<div class="card-content">
+								<span class="card-title"><strong>Cali, la sucursal del cielo</strong></span>
+								<blockquote>Junio 15 del 2019</blockquote>
+								<p>Cali es una de las cinco ciudades principales de Colombia, pero también una de las ciudades más alegres y un destino obligado cuando se visita Colombia por primera vez, o al menos, es una de las ciudades que no pueden faltar en tu visita al país.</p><br>
+								<p>Cali es conocida como la capital mundial de la salsa, y su cercanía al mar del pacifico la 	han convertido en una ciudad con mucho sabor, tanto como Santa Marta, Cartagena o cualquier otra ciudad de la costa caribe. Pero además, Cali, es tan amigable que también es un excelente destino para viajar solo.</p>
+							</div>
+							<div class="card-action">
+								<a href="http://www.guiasybaquianos.com/blog/que-hacer-en-cali">Articulo completo</a>
+							</div>
+						</div>
+					</div>
+					<!-- Articulo para pantalla pequeña -->
+					<div class="card hide-on-med-and-up">
 						<div class="card-image">
 							<img src="img/cali.jpg">
 						</div>
@@ -100,18 +117,18 @@
 					</div>
 					<!-- Comentarios -->
 					<form class="white z-depth-1-half">
-						<div class="input-field">
+						<div class="input-field objetoFormulario">
 							<i class="material-icons prefix">person</i>
-							<textarea class="materialize-textarea objetoFormulario" id="comentarios" placeholder="Deja tu comentario"></textarea>
+							<textarea class="materialize-textarea" id="comentarios"></textarea>
+							<label for="comentarios">Deja tu comentario</label>
 						</div>
-						<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">code</i></a>
-    					<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">create</i></a>
-    					<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">mic</i></a>
+						<a href="#" class="btn-floating objetoFormulario"><i class="material-icons prefix">person_outline</i></a>
+    					<a href="#" class="btn-floating objetoFormulario"><i class="material-icons">mail_outline</i></a>
 						<button class="btn right objetoFormulario" type="submit">Enviar<i class="material-icons right">send</i></button>
 					</form>
 				</div>
 				<!-- Perfil de usuario -->
-				<div class="col s4">
+				<div class="col s12 m4 l4">
 					<div class="card">
 						<div class="center">
 							<img class="responsive-img circle center-align objetoFormulario" src="img/fotojp.png">
