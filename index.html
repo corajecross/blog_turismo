@@ -12,15 +12,17 @@
 	</head>
 
 	<body>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    	<script type="text/javascript" src="js/materialize.min.js"></script>
 		<!-- Contenedor de la pagina -->
 		<div class="row">
 			<!-- Fila encabezado de la pagina -->
 			<div class="row">
-				<div class="col s2 yellow accent-1 center logoEncabezado">
+				<div class="col s2 center">
 					<img class="circle responsive-img" src="img/logo.jpg">
 				</div>
 				<div class="col s10">
-					<nav class="yellow accent-1">
+					<nav>
 						<div class="nav-wrapper">
 							<ul class="right">
 								<li><a class="btn">Inicio</a></li>
@@ -35,10 +37,54 @@
 			</div>
 			<!-- Redes sociales y galeria de viajes -->
 			<div class="row">
-				<i class="material-icons">add</i>
+				<!-- Columna de redes sociales -->
+				<div class="col s1 center">
+					<div class="collection">
+						<a href="#"><img class="circle responsive-img" src="img/fb.png"></a>
+						<a href="#"><img class="circle responsive-img" src="img/ig.png"></a>
+						<a href="#"><img class="circle responsive-img" src="img/yt.png"></a>
+						<a href="#"><img class="circle responsive-img" src="img/tw.png"></a>
+						<a href="#"><img class="circle responsive-img" src="img/wa.png"></a>
+					</div>
+				</div>
+				<!-- Columna de galeria de viajes -->
+				<div class="col s11">
+					<div class="row">
+						<div class="col s4">
+							<div class="center">
+								<img src="img/sierra_nevada_sta_marta.jpg" class="responsive-img galeria z-depth-1-half" alt="Sierra Nevada de Santa Marta">
+							</div>
+							<div class="center">
+								<img src="img/gorgona.jpg" class="responsive-img" alt="Isla Gorgona">
+							</div>
+						</div>
+						<div class="col s4">
+							<div class="card center">
+								<img src="img/Ermita_Cali_Editada.png" class="responsive-img" alt="Iglesia La Ermita Cali">
+							</div>
+						</div>
+						<div class="col s4">
+							<div class="card center">
+								<img src="img/saltoTequendama.jpg" class="responsive-img" alt="Salto de Tequendama">
+							</div>
+							<div class="card center">
+								<img src="img/lasLajas.jpg" class="responsive-img" alt="Iglesia Las Lajas">
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 			<!-- Entrada y perfil de usuario -->
-			<div class="row"></div>
+			<div class="row">
+				<!-- Entrada de articulo -->
+				<div class="col s8">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit labore dolores tempora alias voluptatibus dignissimos optio neque, incidunt minima suscipit, accusamus, dolore nostrum perspiciatis iure, asperiores quos? Libero, beatae quos.</p>
+				</div>
+				<!-- Perfil de usuario -->
+				<div class="col s4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus delectus quod perspiciatis totam, cumque tempore sunt. Dignissimos labore architecto, voluptatem eum asperiores deleniti. Placeat labore nam, eum iusto cum? Eaque.</p>
+				</div>
+			</div>
 		</div>		
 	</body>
 </html>
